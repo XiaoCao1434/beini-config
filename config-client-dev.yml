@@ -1,0 +1,11 @@
+server:
+  port: 9000
+  application:
+    name: config-client
+
+spring:
+  cloud:
+    config:
+      label: master
+      profile: dev
+      uri: http://localhost:8888
