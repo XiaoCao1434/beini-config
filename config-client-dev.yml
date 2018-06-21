@@ -1,5 +1,5 @@
 server:
-  port: 9000
+  port: 8030
   application:
     name: config-client
 
@@ -8,8 +8,4 @@ spring:
     config:
       label: master
       profile: dev
-      uri: http://localhost:8888/
-eureka:
-  client:
-    serviceUrl:
-      defaultZone: http://admin:admin123@localhost:8090/eureka/
+      uri: http://localhost:8022/
